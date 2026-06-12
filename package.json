@@ -9,9 +9,14 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint . --ext .js,.ts,.astro"
   },
   "dependencies": {
     "astro": "^6.4.6"
+  },
+  "devDependencies": {
+    "eslint": "^10.4.1",
+    "eslint-plugin-astro": "^1.7.0"
   }
 }
